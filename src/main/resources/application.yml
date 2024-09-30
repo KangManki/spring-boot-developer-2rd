@@ -18,7 +18,10 @@ spring:
           google:
             client-id: 952584713-gacaoe376rltnij4n2qq9cotr4nkhe8o.apps.googleusercontent.com
             client-secret: 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
+            scope:
+              - email
+              - profile
 
 jwt:
-  issuer: mk.kang@dongbuled-s.com
+  issuer: constant1022@gmail.com
   secret_key: study-springboot
