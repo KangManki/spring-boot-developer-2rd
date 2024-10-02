@@ -187,6 +187,5 @@ class BlogApiControllerTest {
                         .author(user.getUsername())
                         .content("content")
                 .build());
-        )
     }
 }
