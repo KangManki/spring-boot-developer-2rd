@@ -13,12 +13,12 @@ spring:
       client:
         registration:
           google:
-            client-id: 952584713-gacaoe376rltnij4n2qq9cotr4nkhe8o.apps.googleusercontent.com
-            client-secret: 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
+            client-id: oeverwrite_id
+            client-secret: oeverwrite_secret
             scope:
               - email
               - profile
 
 jwt:
   issuer: constant1022@gmail.com
-  secret_key: study-springboot
+  secret_key: overwrite_key

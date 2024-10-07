@@ -16,35 +16,35 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="ed44846f-f76e-4420-913d-927aac287655">
-      <console name="Connection" type="STANDARD" schema="" session="Main"><![CDATA[create database blog;
+    <connection id="405f545b-2428-4c58-ac0b-5d9cc6fcebd7">
+      <console name="Connection 1" type="STANDARD" schema="" session="Main"><![CDATA[create database blog;
 use blog;
 
-create table article (
-  id bigint not null AUTO_INCREMENT,
-  author varchar(255) not null,
-  content varchar(255) not null,
-  creatd_at timestamp,
-  title varchar(255) not null,
-  updated_at timestamp,
-  primary key (id)
+create table article  (
+    id bigint not null AUTO_INCREMENT,
+    author varchar(255) not null,
+    content varchar(255) not null,
+    created_at timestamp,
+    title varchar(255) not null,
+    updated_at timestamp,
+    primary key (id)
 );
 
-create table refresh_token (
-  id bigint not null AUTO_INCREMENT,
-  refresh_token varchar(255) not null,
-  user_id bigint not null,  
-  primary key (id)
+create table refresh_token  (
+    id bigint not null AUTO_INCREMENT,
+    refresh_token varchar(255) not null,
+    user_id bigint not null,    
+    primary key (id)
 );
 
-create table users (
-  id bigint not null AUTO_INCREMENT,
-  creatd_at timestamp,
-  email varchar(255) not null,
-  nickname varchar(255),
-  password varchar(255),
-  updated_at timestamp,
-  primary key (id)
+create table users  (
+    id bigint not null AUTO_INCREMENT,
+    created_at timestamp,
+    email varchar(255) not null,
+    nickname varchar(255),    
+    password varchar(255),
+    updated_at timestamp,
+    primary key (id)
 );
 
 
@@ -56,11 +56,11 @@ show tables;]]></console>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="ed44846f-f76e-4420-913d-927aac287655" object-ref="consoles/Connection" />
+      <object connection-id="405f545b-2428-4c58-ac0b-5d9cc6fcebd7" object-ref="consoles/Connection 1" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="ed44846f-f76e-4420-913d-927aac287655" />
+    <connection id="405f545b-2428-4c58-ac0b-5d9cc6fcebd7" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
@@ -79,9 +79,9 @@ show tables;]]></console>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="ed44846f-f76e-4420-913d-927aac287655" active="true" signed="true">
+      <connection id="405f545b-2428-4c58-ac0b-5d9cc6fcebd7" active="true" signed="true">
         <database>
-          <name value="Connection" />
+          <name value="Connection 1" />
           <description value="" />
           <database-type value="MYSQL" />
           <config-type value="BASIC" />
@@ -90,13 +90,13 @@ show tables;]]></console>
           <driver-library value="" />
           <driver value="" />
           <url-type value="DATABASE" />
-          <host value="awseb-e-bugjbitq9u-stack-awsebrdsdatabase-rmkkhljrpwmm.cje2ck8w8u8w.ap-northeast-2.rds.amazonaws.com" />
+          <host value="awseb-e-tdht9qtkjq-stack-awsebrdsdatabase-c6bmmbspot9e.cp6acgosesy3.ap-northeast-2.rds.amazonaws.com" />
           <port value="3306" />
           <database value="mysql" />
           <tns-folder value="" />
           <tns-profile value="" />
           <type value="USER_PASSWORD" />
-          <user value="root" />
+          <user value="ebroot" />
           <deprecated-pwd value="UGFzc3cwcmQ=" />
         </database>
         <properties>
